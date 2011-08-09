@@ -4,13 +4,16 @@ Dies ist das Github-Repository für das eXeLearning-Projekt, derzeit bearbeitet 
 Anleitung:
 
 
-**Einloggen (immer am Anfang jeder Session):
+**Commits werden von diesem User gemacht (nur einmal pro Computer nötig):
 git config --global user.name "DeinUserName"
 git config --global user.email "DeineEmail"
 
 
-**Ordner erstellen (auf dem Desktop):
+**Ordner erstellen (in diesem Fall auf dem Desktop):
 mkdir ~/Desktop/eXeLearning
+
+
+**In lokalen Ordner navigieren:
 cd ~/Desktop/eXeLearning
 git init
 
@@ -23,10 +26,11 @@ touch IrgendeineDatei.Endung
 git add IrgendeineDatei.Endung
 git commit -m "Kommentar zum Commit"
 
-**Erneuter Commit einer schon vorher bestehenden Datei (lokal):
+
+**Erneuter Commit einer schon vorher auf dem Repository bestehenden Datei (lokal):
 git commit -a -m "Kommentar zum Commit"
 
 
 **Finaler Commit (auf das eigentliche Repository):
-git remote add origin git@github.com:DeinUsername/eXeLearning.git
+git remote add origin git@github.com:DeinUsername/eXeLearning.git  (nur einmal nötig?)
 git push origin master
