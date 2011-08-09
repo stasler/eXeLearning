@@ -1,1 +1,32 @@
 Dies ist das Github-Repository für das eXeLearning-Projekt, derzeit bearbeitet von der InfoAG der data experts GmbH Neubrandenburg.
+
+
+Anleitung:
+
+
+**Einloggen (immer am Anfang jeder Session):
+git config --global user.name "DeinUserName"
+git config --global user.email "DeineEmail"
+
+
+**Ordner erstellen (auf dem Desktop):
+mkdir ~/Desktop/eXeLearning
+cd ~/Desktop/eXeLearning
+git init
+
+
+**Neue Dateien erstellen:
+touch IrgendeineDatei.Endung
+
+
+**Erster Commit einer neuen Datei (lokal):
+git add IrgendeineDatei.Endung
+git commit -m "Kommentar zum Commit"
+
+**Erneuter Commit einer schon vorher bestehenden Datei (lokal):
+git commit -a -m "Kommentar zum Commit"
+
+
+**Finaler Commit (auf das eigentliche Repository):
+git remote add origin git@github.com:DeinUsername/eXeLearning.git
+git push origin master
